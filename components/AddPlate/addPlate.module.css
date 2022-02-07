@@ -1,0 +1,194 @@
+.modal{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-size: 14px;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.9 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.platesContainer{
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 281px; 
+  display: flex;
+  margin: 15px;
+  margin-top: -90px;
+}
+
+.card{
+  width: 580px;
+  height: 460px;
+  background-color: #F0F0F5;
+  border-radius: 8px; 
+  justify-content: center;
+    
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.top button{
+  outline: none;
+  background-color: rgba(14, 14, 14, 0.181);
+  
+  width: 22px;
+  height: 22px;
+  border: none;
+  outline: none;
+  margin-right: -40px;
+  margin-top: -25px;
+}
+
+
+.top img{
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.card h1{
+  margin: 15px;
+
+}
+.main{
+  display: flex;
+  flex-direction: row;
+}
+.name{
+  width: 340px;
+}
+.price{
+  width: 200px;
+}
+
+
+
+.card h1{
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+.detais{
+  margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.addPlate{
+  font-family: sans-serif;
+  width: 194px;
+  height: 56px;
+  background: #39B100;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  display: flex;
+  font-size: 18px;
+  color: #ffff;
+  font-weight: 700;
+  
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.addButton{
+  display: flex;
+  justify-content: end;
+  margin-top: -40px;
+  margin-right: 15px;
+}
+
+.add{
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #41C900;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+
+
+
+.optionsAvailability{
+  margin-left: 15px;
+  
+
+  
+}
+
+
+
+.toggle > label {
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 48px;
+  background: #C72828;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+.toggle > label:after {
+  position: absolute;
+  left: 4px;
+  width: 23px;
+  height: 12px;
+  top:4px;
+  display: block;
+  
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+  content: '';
+  transition: all 0.3s ease;
+}
+.toggle > label:active:after {
+  transform: scale(1.15, 0.85);
+}
+.toggle > input:checked ~ label {
+  background: #39B100;
+  
+  
+}
+.toggle > input:checked ~ label:after {
+  left: 20px;
+  top:4px;
+  background: #ffffff;
+  width: 23px;
+  height: 12px;
+  
+}
+.toggle > input:disabled ~ label {
+  background: #d5d5d5;
+  pointer-events: none;
+}
+.toggle > input:disabled ~ label:after {
+  background: #bcbdbc;
+  
+}
+
+
+.toggle > input {
+  display: none;
+}
+
+

@@ -1,0 +1,10 @@
+.dashboard{
+    width: 100%;
+}
+.dashboardCards{
+    display: grid; 
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    grid-gap: 90px;
+    margin-top: -90px;
+}

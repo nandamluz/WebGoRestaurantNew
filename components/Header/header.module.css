@@ -1,0 +1,61 @@
+.container{
+    background-color: #C72828;
+    width: 100%;
+    height: 281px;
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+}
+.header{
+    width: 1000px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+
+.newPlate{
+    width: 194px;
+    height: 56px;
+    top: 43px;
+    padding-bottom: 15px;
+    background: #39B100;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.headerbutton{
+    display: flex;
+    justify-content: end;
+
+}
+.newPlate spam{
+    display: flex;
+    margin-top: 12px;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 700;
+    width: 250px;
+    cursor: pointer;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.addButton{
+    width: 56px;
+    height: 56px;
+    top: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #41C900;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+}

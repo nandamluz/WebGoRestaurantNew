@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+ 
+}
+
+
+.label{
+  font-family: sans-serif;
+  font-size: 12px;
+  position: relative;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+
+.input{
+
+  border: none;
+  border-radius: 8px;
+  padding-left: 5px;
+  height: 56px;
+  outline: none;
+}
+.error {
+  color: rgb(247, 9, 9);
+  font-weight: bold;
+  font-size: 10px;
+}

@@ -1,0 +1,156 @@
+
+
+.platesContainer{
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 281px; 
+  display: flex;
+  margin: 15px;
+  margin-top: -90px;
+}
+
+.card{
+  width: 736px;
+  height: 564px;
+  background-color: #F0F0F5;
+  border-radius: 8px; 
+  justify-content: center;
+}
+.card h1{
+  margin: 15px;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.card h1{
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+.detais{
+  margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.addPlate{
+  font-family: sans-serif;
+  width: 194px;
+  height: 56px;
+  background: #39B100;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  display: flex;
+  font-size: 18px;
+  color: #ffff;
+  font-weight: 700;
+  width: 194px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.addButton{
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+.add{
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #41C900;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+.addButton{
+  margin: 15px;
+}
+
+
+.optionsAvailability{
+  display: flex;
+justify-content: center; 
+ margin:  20px;
+  
+}
+.optionsAvailability p{
+  font-size: 10px;
+  margin-right: 8px;
+  margin-top: 5px;
+  
+}
+
+
+.toggle > label {
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 48px;
+  background: #C72828;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+.toggle > label:after {
+  position: absolute;
+  left: 4px;
+  width: 23px;
+  height: 12px;
+  top:4px;
+  display: block;
+  
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+  content: '';
+  transition: all 0.3s ease;
+}
+.toggle > label:active:after {
+  transform: scale(1.15, 0.85);
+}
+.toggle > input:checked ~ label {
+  background: #39B100;
+  
+  
+}
+.toggle > input:checked ~ label:after {
+  left: 20px;
+  top:4px;
+  background: #ffffff;
+  width: 23px;
+  height: 12px;
+  
+}
+.toggle > input:disabled ~ label {
+  background: #d5d5d5;
+  pointer-events: none;
+}
+.toggle > input:disabled ~ label:after {
+  background: #bcbdbc;
+  
+}
+
+.toggle {
+  margin-bottom: 40px;
+}
+.toggle > input {
+  display: none;
+}
+
+

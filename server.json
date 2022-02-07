@@ -1,0 +1,44 @@
+{
+  "plates": [
+    {
+      "url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
+      "name": "wcore",
+      "price": "5655545",
+      "description": "Espaguete ao molho de legumes",
+      "availability": true,
+      "id": 11
+    },
+    {
+      "url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "name": "jiiskjks",
+      "price": "R$33,90",
+      "description": "dwdwd",
+      "availability": true,
+      "id": 12
+    },
+    {
+      "url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
+      "name": "Fernanda de Morais Luz",
+      "price": "5655545",
+      "description": "dwdwd",
+      "availability": true,
+      "id": 13
+    },
+    {
+      "url": "sdwsw",
+      "name": "sqwq",
+      "price": "666",
+      "description": "qw2wq2",
+      "availability": true,
+      "id": 14
+    },
+    {
+      "url": "ewewff",
+      "name": "gerse",
+      "price": "666",
+      "description": "qwdqwe",
+      "availability": true,
+      "id": 15
+    }
+  ]
+}
